@@ -1,0 +1,17 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\MfcGuiPortApp.Application = MfcGuiPortApp Application
+
+
+HKEY_CLASSES_ROOT\MfcGuiPortApp.Application\CLSID = {0491098b-81e3-4eef-8af0-0633d2f73476}
+
+HKEY_CLASSES_ROOT\CLSID\{0491098b-81e3-4eef-8af0-0633d2f73476} = MfcGuiPortApp Application
+HKEY_CLASSES_ROOT\CLSID\{0491098b-81e3-4eef-8af0-0633d2f73476}\ProgId = MfcGuiPortApp.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{0491098b-81e3-4eef-8af0-0633d2f73476}\LocalServer32 = MfcGuiPortApp.EXE

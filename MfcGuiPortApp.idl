@@ -1,0 +1,29 @@
+// MfcGuiPortApp.idl : type library source for MfcGuiPortApp.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (MfcGuiPortApp.tlb).
+
+[ uuid(604e458a-e3d1-4468-b423-0ecdfa29a892), version(1.0) ]
+library MfcGuiPortApp
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CMfcGuiPortAppDoc
+
+	[ uuid(07f3d1a8-ead7-40da-a704-91c944f43ceb) ]
+	dispinterface IMfcGuiPortApp
+	{
+		properties:
+
+		methods:
+	};
+
+	//  Class information for CMfcGuiPortAppDoc
+
+	[ uuid(0491098b-81e3-4eef-8af0-0633d2f73476) ]
+	coclass MfcGuiPortApp
+	{
+		[default] dispinterface IMfcGuiPortApp;
+	};
+};
