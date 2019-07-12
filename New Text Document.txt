@@ -1,0 +1,11 @@
+Was written to port an from MBCS to UNICODE and to Internationalize the text at the same time.
+Reads in resource file then computes new text/caption lengths which are 1.5 times the English 
+text/caption then goes through and resizes the edit boxes and captions in Dialogs. Once they
+are resized figures out if the dialog needs resizing too and performs resizing.
+
+The last part is where I left off so it just needs to recompute new dialog sizing if other controls
+changed size.
+
+
+This code can also be used for any other language where a file or files can be parsed and its has the idea of dialogs, pages, controls and text.
+Can laso be used for what ever else you'd want to parse into these specific definitions.
